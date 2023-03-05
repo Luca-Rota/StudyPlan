@@ -1,0 +1,53 @@
+
+.main {
+  padding-top: 55px;
+}
+
+.vheight-100 {
+  min-height: 91vh;
+}
+
+.accordion-button {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.studyPlanElem {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+} 
+
+.imgShadow:hover{
+  border: 3px solid lightblue;
+  border-radius: 50%;
+  box-shadow: 0 0 3px lightblue;
+  transition: all 200ms ease-out;
+} 
+
+.scrollable-div {
+  border: 3px solid #198754;
+  border-radius: 4%;
+  height: 70vh;
+  overflow: auto;
+  margin-top: 100px;
+  background-color: #198754;
+}
+
+.scrollable-div2 {
+  border: 3px solid #198754;
+  border-radius: 4%;
+  min-height: 0vh;
+  max-height: 50vh;
+  overflow: auto;
+  margin-top: 100px;
+  background-color: #198754;
+}
+
+.noBarChrome::-webkit-scrollbar {
+  display: none;
+}
+
+.noBarFireFox {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
+}
